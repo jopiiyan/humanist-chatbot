@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-chroma
+chromadb
+
+pypdf
+langchain-text-splitters
+
+openai-whisper
+sounddevice
+scipy
+
+pyttsx3
+numpy
