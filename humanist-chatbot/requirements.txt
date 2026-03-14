@@ -4,6 +4,7 @@ langchain-community
 langchain-ollama
 langchain-chroma
 chromadb
+streamlit
 
 pypdf
 langchain-text-splitters

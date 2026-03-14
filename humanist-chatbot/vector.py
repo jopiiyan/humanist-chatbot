@@ -6,8 +6,9 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 import os
 
-# Folder containing your articles
-PDF_FOLDER = "./articles/articles.txt"
+BASE_DIR = os.path.dirname(__file__)
+
+PDF_FOLDER = os.path.join(BASE_DIR, "articles")
 
 # Embedding model
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
